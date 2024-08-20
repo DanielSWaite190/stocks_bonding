@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Nav/>
-      <h1>Home</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
       <Image src={require("./media/citty.webp")} fluid/>
     </div>
   );
