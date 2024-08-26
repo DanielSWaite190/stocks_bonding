@@ -1,22 +1,39 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav';
-import Image from 'react-bootstrap/Image'
+
 import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image'
+import Nav from 'react-bootstrap/Nav';
+
+import '../App.css'
 
 function nav() {
   return (
     <React.Fragment>
-      <Navbar>
+      <div id="img">
+          <Image src={require("../media/s_b_box.webp")}/>
+      </div>
+
+      <Navbar class="one" data-bs-theme="light">
+
+      <div id="nav-container">
         <Nav>
-          <Image src={require("../media/s_b_box.webp")} fluid/>
+          
           <Nav.Link href="#home">Home</Nav.Link>
+          
           <Nav.Link href="#team">Meet our Team</Nav.Link>
+
           <Nav.Link href="#chat">Chat Room</Nav.Link>
+
           <Nav.Link href="#enroll">Enroll</Nav.Link>
+
           <Nav.Link href="#assessment">Need Assessment</Nav.Link>
+        
           <Nav.Link href="#thinkific">Thinkific</Nav.Link>
-          <Nav.Link href="#login">Log In</Nav.Link>
+
+        {/* <Nav.Link href="#login">Log In</Nav.Link> */}
+
         </Nav>
+      </div>
       </Navbar>
     </React.Fragment>
   );
