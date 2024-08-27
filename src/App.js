@@ -9,7 +9,7 @@ function App() {
       <Nav/>
       <HeroImage/>
       <h1>THE STOCKS AND BONDING ACADEMY</h1>
-      <Image src={require("./media/citty.webp")}/>
+      <Image src="media/citty.webp"/>
     </div>
   );
 }

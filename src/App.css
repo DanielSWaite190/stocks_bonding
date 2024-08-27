@@ -46,19 +46,16 @@
 }
 
 
-#nav-container{
+/* #nav-container{
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
 
-#img{
+#s_b_box{
   display: flex;
   justify-content: center;
-}
-
-#test{
-  width: 10%;
-  height: 10%;
-}
+  height: 75px;
+  margin: 5px;
+} */
