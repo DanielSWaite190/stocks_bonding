@@ -1,7 +1,6 @@
 import Nav from "./components/nav";
 import HeroImage from './components/HeroImage';
 
-import Image from 'react-bootstrap/Image'
 
 function App() {
   return (
@@ -9,7 +8,19 @@ function App() {
       <Nav/>
       <HeroImage/>
       <h1>THE STOCKS AND BONDING ACADEMY</h1>
-      <Image src="media/citty.webp"/>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
+      <h1>THE STOCKS AND BONDING ACADEMY</h1>
     </div>
   );
 }

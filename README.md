@@ -4,4 +4,4 @@ TODO: DarkMode
 
 SOURCE: https://www.thestocksandbondingacademy.com
 
-![Home page](<./src/media/Screen Shot 2024-08-19 at 1.51.42 PM.png>)
+![Home page](<public/media/Screen Shot 2024-08-19 at 1.51.42 PM.png>)
