@@ -1,41 +1,24 @@
-#back-g{
-    height: 1000px;
-    width: 100%;
-    /* background-attachment: fixed; */
-    background-position: center;
+#citty{
+    background-image: url("../../public/media/citty.webp");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url("../../public/media/citty.webp");
-    background-color: lightcoral;
-}
-
-
-#second{
-    height: 2000px;
-    width: 100%;
-    object-fit: contain;
-    background-attachment: fixed;
-    background-color: lightcoral;
-}
-
-
-container{
-    height: 2000px;
-    width: 100%;
-    background-image: url("../../public/media/citty.webp");
-    background-attachment: fixed;
-}
-
-
-.parallax {
-    /* The image used */
-    background-image: url("../../public/media/citty.webp");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-  }
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#wall{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+}
+
+#white{
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+}
