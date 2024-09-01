@@ -1,5 +1,41 @@
 #back-g{
-    min-height: 600px;
-    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url("../../public/media/citty.webp");
+    background-color: lightcoral;
 }
+
+
+#second{
+    height: 2000px;
+    width: 100%;
+    object-fit: contain;
+    background-attachment: fixed;
+    background-color: lightcoral;
+}
+
+
+container{
+    height: 2000px;
+    width: 100%;
+    background-image: url("../../public/media/citty.webp");
+    background-attachment: fixed;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../../public/media/citty.webp");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

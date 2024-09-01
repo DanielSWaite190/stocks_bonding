@@ -11,7 +11,6 @@ function nav() {
     <React.Fragment>
       <div id="s_b_box">
           <Image src="media/s_b_box.webp"/>
-          {/* <Image src="media/s_b_box.webp"/> */}
       </div>
 
       <Navbar class="one" data-bs-theme="light">
