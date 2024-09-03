@@ -11,14 +11,13 @@
     /* position: static; */
 }
 
-#wall{
-    height: 700px;
-    width: 700px;
-    margin: auto;
-    /* float: left; */
-    position: absolute;
-    left: 450px;
+.wow_i{
+    --left-postion: 450px;
 }
+
+/* #big-div{
+    position: static;
+} */
 
 
 /* #white{
@@ -29,19 +28,23 @@
     float: left;
 } */
 
-
-#big-div{
-    position: static;
-}
-
 #white{
     background-color: white;
-    height: 300px;
-    width: 700px;
+    height: 320px;
+    width: 673px;
     /* margin: auto; */
     position: absolute;
     /* bottom: 10px; */
-    left: 450px;
-    bottom: 250px;
+    left: 464px;
+    bottom: 227px;
+}
 
+
+#wall{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    /* float: left; */
+    position: absolute;
+    left: var(--left-postion);
 }

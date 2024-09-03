@@ -8,9 +8,8 @@ function HeroImage() {
 
       <div id="bid-div">
 
-        <div id="white"/>
-        <img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'></img>
-
+        <div id="white" class="wow_i" />
+        <img id="wall" class="wow_i" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/>
       </div>
 
     </div>
