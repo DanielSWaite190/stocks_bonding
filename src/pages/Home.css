@@ -1,0 +1,12 @@
+#text1{
+    background-image: url("../../public/media/mountains.jpg");
+    /* background-image: url("../../public/media/citty.webp"); */
+}
+
+#frost{
+    /* background-image: url("../../public/media/mountains.jpg"); */
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background-color: rgba(254, 21, 4, 0.5);
+}

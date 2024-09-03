@@ -5,46 +5,22 @@
     background-position: center;
     background-size: cover;
     height: 800px;
-
-    /* display: flex; */
-    /* justify-content: center; */
-    /* position: static; */
 }
-
-.wow_i{
-    --left-postion: 450px;
-}
-
-/* #big-div{
-    position: static;
-} */
-
-
-/* #white{
-    background-color: white;
-    height: 700px;
-    width: 700px;
-    margin: auto;
-    float: left;
-} */
 
 #white{
     background-color: white;
+    position: absolute;
     height: 320px;
     width: 673px;
-    /* margin: auto; */
-    position: absolute;
-    /* bottom: 10px; */
+
     left: 464px;
     bottom: 227px;
 }
 
-
 #wall{
+    position: absolute;
     height: 700px;
     width: 700px;
-    margin: auto;
-    /* float: left; */
-    position: absolute;
-    left: var(--left-postion);
+
+    left: 450px
 }
