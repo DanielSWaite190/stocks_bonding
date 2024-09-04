@@ -4,7 +4,7 @@ import React from 'react';
 function heroImage() {
   return (
     <div id="citty">
-      <div>
+      <div id="container">
         <div id="white" />
         <img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/>
       </div>
