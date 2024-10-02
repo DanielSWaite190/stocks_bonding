@@ -1,6 +1,7 @@
 import './Home.css'
 
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import HeroImage from '../components/heroImage';
 
 function home () {
@@ -40,7 +41,33 @@ function home () {
             </li>
           </ul>
         </section>
-        
+
+        <section id="buttons">
+          <button>Enroll</button>
+          <button>Quizzes, Transcripts</button>
+          {/* <Button variant="light" size="lg">Enroll</Button> */}
+          {/* <Button variant="light" size="lg">Quizzes, Transcripts</Button> */}
+        </section>
+
+        <div id="learn">
+          <h1 class="white">What will your employees learn?</h1>
+          
+          <img src="" alr=""/>
+          <p class="white">How to address unhealthy spending habits</p>
+
+          <img src="" alr=""/>
+          <p class="white">How to address unhealthy spending habits</p>
+
+          <img src="" alr=""/>
+          <p class="white">How to address unhealthy spending habits</p>
+
+          <img src="" alr=""/>
+          <p class="white">How to address unhealthy spending habits</p>
+
+          <img src="" alr=""/>
+          <p class="white">How to address unhealthy spending habits</p>
+        </div>
+
         </div>
       </div>
     </React.Fragment>

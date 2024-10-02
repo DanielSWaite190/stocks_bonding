@@ -1,3 +1,4 @@
+/* Mountains */
 #body::before {
 content: "";
 display: block;
@@ -55,5 +56,38 @@ p{
     width: 60%;
 }
 
-
 u{color: gray}
+
+
+#buttons{
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+
+button {
+    background-color: white;
+    color: purple;
+    border: none;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20%;
+  }
+  
+#learn{
+    height: 400px;
+    background-color: rgb(36, 15, 56);
+}
+.white{color: white}
+
+/* Display Board */
+
+
+
+/* Numbers */
+/* Wall Street */
