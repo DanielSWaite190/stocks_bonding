@@ -59,7 +59,7 @@ p{
 u{color: gray}
 
 
-#buttons{
+.buttons{
     justify-content: space-between;
     display: flex;
     margin: auto;
@@ -77,13 +77,52 @@ button {
     text-decoration: none;
     display: inline-block;
     border-radius: 20%;
-  }
+}
   
-#learn{
-    height: 400px;
+
+#purple_block{
+    height: 450px;
+    text-align: center;
     background-color: rgb(36, 15, 56);
 }
+
+
 .white{color: white}
+
+#learn{
+    margin-top: 30px;
+    display: flex; 
+}
+
+.item{
+    width: 400px;
+    height: 200px;
+}
+
+
+#course{
+    height: 450px;
+    text-align: center;
+    background-color: white;
+}
+
+#titel{
+    padding-top: 50px;
+}
+
+#Employees{
+    margin: auto;
+    padding: 30px;
+    width: 60%;
+}
+
+#img_list{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: 500px;
+}
+
 
 /* Display Board */
 
