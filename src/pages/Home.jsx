@@ -4,7 +4,6 @@ import React from 'react';
 // import Button from 'react-bootstrap/Button';
 import HeroImage from '../components/heroImage';
 
-
 function home () {
   return (
     <React.Fragment>
@@ -21,7 +20,7 @@ function home () {
           </section> 
               
           <section id="s_two">
-            <p>
+            <p id="our_team">
               Our team of highly professional and very compassionate, 
               licensed financial coaches and advisors, provide engaging virtual workshops, 
               one on one goal setting sessions and UNLIMITED FINANCIAL COACHING appointments.
@@ -30,8 +29,8 @@ function home () {
 
             <h2>72% OF EMPLOYEES ARE FINANCIALLY STRESSED</h2>
 
-            <p>Healing your team's financial stress will impact:</p>
           </section>
+            <p style={{textAlign: "center"}}>Healing your team's financial stress will impact:</p>
           
           <section id="s_three">
             <ul>
@@ -98,7 +97,7 @@ function home () {
             </p>
 
             <div id="img_list">
-              <img src="./media/laptop.jpg.webp" width="450px" height="400px"/>
+              <img src="./media/laptop.jpg.webp" width="450px" height="400px" alt=""/>
               <ul>
                 <li>How does the stock market work?</li>
                 <li>How do you make money from investing in the stock market?</li>
@@ -111,7 +110,7 @@ function home () {
                 <li>Traditional 401(k) vs. Roth 401(k) and IRA’s</li>
               </ul>
             </div>
-            <div class="buttons"><button>Enroll</button></div>
+            <button> + Enroll</button>
             
           </div>
 
