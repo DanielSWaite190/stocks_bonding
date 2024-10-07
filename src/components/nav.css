@@ -1,13 +1,12 @@
 #nav-container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  
-  #s_b_box{
-    display: flex;
-    justify-content: center;
-    height: 75px;
-    margin: 5px;
-  }
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#s_b_box{
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  margin: 5px;
+}

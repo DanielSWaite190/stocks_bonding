@@ -1,10 +1,12 @@
 import './Home.css'
-
 import React from 'react';
-// import Button from 'react-bootstrap/Button';
 import HeroImage from '../components/heroImage';
+import ParallaxImg from '../components/ParallaxImg'
+
 
 function home () {
+  let display_board = "/media/display_board.jpg"
+
   return (
     <React.Fragment>
       <HeroImage/>
@@ -111,12 +113,15 @@ function home () {
               </ul>
             </div>
             <button> + Enroll</button>
-            
-          </div>
+      
+          <ParallaxImg img={display_board} size={"400px"}/>
+
+        </div>
 
         </div>
       </div>
     </React.Fragment>
   );
 }
+
 export default home;

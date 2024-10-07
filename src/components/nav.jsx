@@ -1,10 +1,9 @@
 import React from 'react';
-
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image'
 import Nav from 'react-bootstrap/Nav';
-
 import './nav.css'
+
 
 function nav() {
   return (
@@ -31,8 +30,10 @@ function nav() {
         </Nav>
         <Nav.Link href="#login">Log In</Nav.Link>
       </div>
+
       </Navbar>
     </React.Fragment>
   );
 }
+
 export default nav;
