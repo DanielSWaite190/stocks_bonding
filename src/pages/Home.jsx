@@ -32,7 +32,8 @@ function home () {
             <h2>72% OF EMPLOYEES ARE FINANCIALLY STRESSED</h2>
 
           </section>
-            <p style={{textAlign: "center"}}>Healing your team's financial stress will impact:</p>
+          
+          <p style={{textAlign: "center"}}>Healing your team's financial stress will impact:</p>
           
           <section id="s_three">
             <ul>
@@ -114,12 +115,35 @@ function home () {
             </div>
             <button> + Enroll</button>
       
-          <ParallaxImg img={display_board} size={"400px"}/>
+            {/* <ParallaxImg img={display_board} size={"400px"}/> */}
 
-        </div>
+          </div> {/* course */}
+        
+          <h1>One First</h1>
+          <h1>One First</h1>
+          <h1>One First</h1>
+          <h1>One First</h1>
+          <h1>One First</h1>
+          <h1>One First</h1>
 
-        </div>
-      </div>
+        </div> {/* text */}
+        
+
+        <h1>Two Second</h1>
+        <h1>Two Second</h1>
+        <h1>Two Second</h1>
+        <h1>Two Second</h1>
+        <h1>Two Second</h1>
+
+
+      </div> {/* body */}
+
+      <h1>Three Third</h1>
+      <h1>Three Third</h1>
+      <h1>Three Third</h1>
+      <h1>Three Third</h1>
+      <h1>Three Third</h1>
+
     </React.Fragment>
   );
 }
