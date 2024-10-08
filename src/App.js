@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 
 import "./App.css"
 
+// import test from '../public/media/mountains.jpg'
 function App() {
   return (
     <React.Fragment>
