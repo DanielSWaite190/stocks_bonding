@@ -3,61 +3,53 @@ import React from 'react';
 import HeroImage from '../components/heroImage';
 import ParallaxImg from '../components/ParallaxImg'
 
-// import test from "../../public/media/mountains.jpg"
-
 function home () {
   let display_board = "/media/display_board.jpg"
 
   return (
     <React.Fragment>
       <HeroImage/>
+      
+      <div id="mountains" style={{backgroundImage: `url(media/mountains.jpg)`}}>
+        <div id="overlay">
+          <section id="s_one">
+            <h1>THE STOCKS AND BONDING ACADEMY</h1>
+            <h2>A CORPORATE FINANCIAL WELLNESS SOLUTIO</h2>
+          </section> 
+                  
+          <section id="s_two">
+            <p id="our_team">
+              Our team of highly professional and very compassionate, 
+              licensed financial coaches and advisors, provide engaging virtual workshops, 
+              one on one goal setting sessions and UNLIMITED FINANCIAL COACHING appointments.
+              Our ultimate goal is, through education, to increase the financial health of your team.
+            </p>
 
-      {/* <div id="mountains" style={{
-        backgroundImage: `url(media/mountains.jpg)`,
-        height: "800px"}}> */}
+            <h2>72% OF EMPLOYEES ARE FINANCIALLY STRESSED</h2>
 
-      <img id="mountains_img" src="media/mountains.jpg" alt=""/>
+          </section>
+              
+          <p style={{textAlign: "center"}}>Healing your team's financial stress will impact:</p>
 
-      <div id="mountains_text">
+          <section id="s_three">
+            <ul>
+              <li><u>Increase Employer Retention</u>: Financially stressed individuals are 2x more likely to look for a new job</li>
+              <li><u>Improve Productivity</u>:  Financially Stressed employees lose an average of 11.4 hours of productivity a week</li>
+              <li><u>Reduce Absenteeism</u>: Money struggles often necessitate needing time off to handle.</li>
+              <li><u>
+                Boost Company Culture and Morale</u>: Providing a service that will add to the overall health and happiness of their family, 
+                let's your team members know that they are cared for by their company.
+              </li>
+            </ul>
+          </section>
 
-        <section id="s_one">
-          <h1>THE STOCKS AND BONDING ACADEMY</h1>
-          <h2>A CORPORATE FINANCIAL WELLNESS SOLUTIO</h2>
-        </section> 
-                
-        <section id="s_two">
-          <p id="our_team">
-            Our team of highly professional and very compassionate, 
-            licensed financial coaches and advisors, provide engaging virtual workshops, 
-            one on one goal setting sessions and UNLIMITED FINANCIAL COACHING appointments.
-            Our ultimate goal is, through education, to increase the financial health of your team.
-          </p>
-
-          <h2>72% OF EMPLOYEES ARE FINANCIALLY STRESSED</h2>
-
-        </section>
-            
-        <p style={{textAlign: "center"}}>Healing your team's financial stress will impact:</p>
-
-        <section id="s_three">
-          <ul>
-            <li><u>Increase Employer Retention</u>: Financially stressed individuals are 2x more likely to look for a new job</li>
-            <li><u>Improve Productivity</u>:  Financially Stressed employees lose an average of 11.4 hours of productivity a week</li>
-            <li><u>Reduce Absenteeism</u>: Money struggles often necessitate needing time off to handle.</li>
-            <li><u>
-              Boost Company Culture and Morale</u>: Providing a service that will add to the overall health and happiness of their family, 
-              let's your team members know that they are cared for by their company.
-            </li>
-          </ul>
-        </section>
-
-        <section class="buttons">
-          <button>Enroll</button>
-          <button>Quizzes, Transcripts</button>
-          {/* <Button variant="light" size="lg">Enroll</Button> */}
-          {/* <Button variant="light" size="lg">Quizzes, Transcripts</Button> */}
-        </section>
-
+          <section class="buttons">
+            <button>Enroll</button>
+            <button>Quizzes, Transcripts</button>
+            {/* <Button variant="light" size="lg">Enroll</Button> */}
+            {/* <Button variant="light" size="lg">Quizzes, Transcripts</Button> */}
+          </section>
+        </div>
       </div>
 
       <div>
