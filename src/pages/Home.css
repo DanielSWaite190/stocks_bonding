@@ -6,22 +6,19 @@
     z-index: 2;
 }
 
-h1, h3{
-    color: purple;
-    font-weight: bold;
-}
+.purple{color: purple;}
 
-h2{color: purple}
-
-#our_team{
-    font-weight: bold;
-    font-size: x-large
-}
+.bold{font-weight: bold;}
 
 #s_one{
     margin: auto;
     width: 60%;
     text-align: center;
+}
+
+#our_team{
+    font-weight: bold;
+    font-size: x-large
 }
 
 #s_two{
@@ -39,16 +36,12 @@ h2{color: purple}
     width: 60%;
 }
 
-/* u{color: gray} */
-
-
 .buttons{
     justify-content: space-between;
     display: flex;
     margin: auto;
     width: 50%;
 }
-
 
 button {
     background-color: white;
@@ -61,16 +54,14 @@ button {
     display: inline-block;
     border-radius: 20%;
 }
-  
 
 #purple_block{
     height: 450px;
+    color: white;
+    font-weight: bold;
     text-align: center;
     background-color: rgb(36, 15, 56);
 }
-
-
-.white{color: white}
 
 #learn{
     margin-top: 30px;
@@ -82,19 +73,14 @@ button {
     height: 200px;
 }
 
-
 #course{
-    /* height: 830px; */
     height: 700px;
     text-align: center;
-    /* background-color: white; */
-    /* background-color:rgba(255, 0, 0, 0.10); */
-    /* background-color:red; */
 }
 
-#titel{
-    padding-top: 50px;
-}
+.dark_purple{color: rgb(58, 0, 58);}
+
+#new_investors{padding-top: 50px;}
 
 #Employees{
     margin: auto;
@@ -107,15 +93,11 @@ button {
     justify-content: center;
     text-align: left;
     height: 500px;
-    /* background-color: rgba(255, 255, 0, 0.10); */
-    /* background-color: red; */
-
 }
-
-
 /* Display Board */
 
 
 
 /* Numbers */
 /* Wall Street */
+
