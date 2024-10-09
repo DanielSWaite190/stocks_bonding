@@ -55,37 +55,35 @@ function home () {
         </div>
       </div>
 
-      <div>
-        <div id="purple_block">
-          <h1>What will your employees learn?</h1>
+      <div id="purple_block">
+        <h1>What will your employees learn?</h1>
 
-          <ul id="learn">
-            <div class="item">
-              <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
-              <p>How to address unhealthy spending habits</p>
-            </div>
+        <ul id="learn">
+          <div class="item">
+            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <p>How to address unhealthy spending habits</p>
+          </div>
 
-            <div class="item">
-              <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
-              <p>How to create a budget and stick to it</p>
-            </div>
+          <div class="item">
+            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <p>How to create a budget and stick to it</p>
+          </div>
 
-            <div class="item">
-              <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
-              <p>How to reduce debt</p>
-            </div>
+          <div class="item">
+            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <p>How to reduce debt</p>
+          </div>
 
-            <div class="item">
-              <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
-              <p>All about the STOCK MARKET and INVESTING</p>
-            </div>
+          <div class="item">
+            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <p>All about the STOCK MARKET and INVESTING</p>
+          </div>
 
-            <div class="item">
-              <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
-              <p>And More !!</p>
-            </div>
-          </ul>
-        </div>
+          <div class="item">
+            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <p>And More !!</p>
+          </div>
+        </ul>
       </div>
 
       <div id="course">
@@ -102,6 +100,7 @@ function home () {
 
         <div id="img_list">
           <img src="./media/laptop.jpg.webp" width="450px" height="400px" alt=""/>
+
           <ul class="bold">
             <li>How does the stock market work?</li>
             <li>How do you make money from investing in the stock market?</li>
@@ -113,8 +112,8 @@ function home () {
             <li>Bonds Part 2</li>
             <li>Traditional 401(k) vs. Roth 401(k) and IRA’s</li>
           </ul>
-          <button> + Enroll</button>
         </div>
+        <button> + Enroll</button>
       </div>
         
       <ParallaxImg img={display_board} size={"400px"}/>
