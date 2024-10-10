@@ -7,7 +7,9 @@ import ParallaxImg from '../components/ParallaxImg'
 
 
 function home () {
-  let display_board = "/media/display_board.jpg"
+  const display_board = "/media/display_board.jpg"
+  const numbers = "/media/numbers.jpeg"
+  const wall_street = "/media/wall_street.jpg"
 
   return (
     <React.Fragment>
@@ -86,7 +88,7 @@ function home () {
         </ul>
       </div>
 
-      <div id="course">
+      <div class="course">
         <div id="new_investors" class="dark_purple">
           <h1 class="bold">STOCK MARKET COURSE</h1>
           <h1 class="bold">For New Investors</h1>
@@ -118,24 +120,34 @@ function home () {
         
       <ParallaxImg img={display_board} size={"400px"}/>
 
-      <h1>One</h1>
-      <h1>One</h1>
-      <h1>One</h1>
-      <h1>One</h1>
-      <h1>One</h1>
-      <h1>One</h1>
+      <div id="workshop">
 
-      <h1>Two</h1>
-      <h1>Two</h1>
-      <h1>Two</h1>
-      <h1>Two</h1>
-      <h1>Two</h1>
+        <h1 id="titel" class="dark_purple bold">WORKSHOPS</h1>
 
-      <h1>Three</h1>
-      <h1>Three</h1>
-      <h1>Three</h1>
-      <h1>Three</h1>
-      <h1>Three</h1>
+        <div id="list_div">
+          <h3 id="behaviors">
+            Employees will learn to address the behaviors that lead to debt creation.
+            They will learn budgeting/saving strategies and ultimately what it takes to become financially secure.
+          </h3>
+
+          <ul style={{paddingLeft: "50px"}}>
+            <li>Let’s make a budget using a budgeting app.</li>
+            <li>Time to focus on debt reduction : Snowball Method</li>
+            <li>The psychology of spending</li>
+            <li>Options for managing retirement accounts</li>
+            <li>Whole Life vs. Term Life insurance</li>
+            <li>Saving for college</li>
+            <li>Planning for retirement</li>
+            <li>Tips for saving</li>
+            <li>Becoming a home owner</li>
+            <li>New car vs. used</li>
+            <li>Custom topics</li>
+          </ul>
+        </div>
+      </div>
+
+      <ParallaxImg img={numbers} size={"400px"}/>
+      {/* <ParallaxImg img={wall_street} size={"400px"}/> */}
 
     </React.Fragment>
   );
