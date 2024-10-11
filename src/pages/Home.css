@@ -98,27 +98,43 @@ button {
 /* Display Board */
 
 #workshop{
+    height: 800px;
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    /* background-color: greenyellow; */
+
 }
 
 #titel{
-    margin: auto;
     padding: 30px;
+    text-align: center;
+    padding-bottom: 5%;
+    /* background-color: blue; */
 }   
 
 #behaviors{
     margin: auto;
+    padding: 2%;
     text-align: center;
+    /* background-color: red; */
 }
 
 #list_div{
     width: 60%;
     margin: auto;
     text-align: left;
+    /* background-color: orange; */
 }
+
+#list{
+    /* padding: "5px 0px 0px 50px"; */
+    font-size: large;
+    font-weight: bold;
+    /* background-color: rgb(242, 0, 255); */
+}
+
 
 /* Numbers */
 /* Wall Street */

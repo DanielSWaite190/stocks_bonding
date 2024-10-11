@@ -122,15 +122,15 @@ function home () {
 
       <div id="workshop">
 
-        <h1 id="titel" class="dark_purple bold">WORKSHOPS</h1>
 
         <div id="list_div">
+          <h1 id="titel" class="dark_purple bold">WORKSHOPS</h1>
           <h3 id="behaviors">
             Employees will learn to address the behaviors that lead to debt creation.
             They will learn budgeting/saving strategies and ultimately what it takes to become financially secure.
           </h3>
 
-          <ul style={{paddingLeft: "50px"}}>
+          <ul id="list" >
             <li>Let’s make a budget using a budgeting app.</li>
             <li>Time to focus on debt reduction : Snowball Method</li>
             <li>The psychology of spending</li>
