@@ -3,8 +3,6 @@ import React from 'react';
 import HeroImage from '../components/heroImage';
 import ParallaxImg from '../components/ParallaxImg'
 
-// import { Button } from 'react-bootstrap';
-
 
 function home () {
   const display_board = "/media/display_board.jpg"
@@ -49,15 +47,13 @@ function home () {
           </section>
 
           <section class="buttons">
-            <button style={{borderStyle: "solid", borderColor: "purple"}}>Enroll</button>
-            <button style={{borderStyle: "solid", borderColor: "purple"}}>Quizzes, Transcripts</button>
-            {/* <Button variant="light" size="lg">Enroll</Button> */}
-            {/* <Button variant="light" size="lg">Quizzes, Transcripts</Button> */}
+            <button class="white_buttons">Enroll</button>
+            <button class="white_buttons">Quizzes, Transcripts</button>
           </section>
         </div>
       </div>
 
-      <div id="purple_block">
+      <div class="purple_block">
         <h1>What will your employees learn?</h1>
 
         <ul id="learn">
@@ -115,14 +111,12 @@ function home () {
             <li>Traditional 401(k) vs. Roth 401(k) and IRA’s</li>
           </ul>
         </div>
-        <button> + Enroll</button>
+        <button class="white_buttons"> + Enroll</button>
       </div>
         
       <ParallaxImg img={display_board} size={"400px"}/>
 
       <div id="workshop">
-
-
         <div id="list_div">
           <h1 id="titel" class="dark_purple bold">WORKSHOPS</h1>
           <h3 id="behaviors">
@@ -147,8 +141,8 @@ function home () {
       </div>
 
       <ParallaxImg img={numbers} size={"400px"}/>
-      {/* <ParallaxImg img={wall_street} size={"400px"}/> */}
-
+      <div class="purple_block" style={{height: "700px"}}/>
+      <ParallaxImg img={wall_street} size={"400px"}/>
     </React.Fragment>
   );
 }

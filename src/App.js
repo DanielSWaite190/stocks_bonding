@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/nav";
 import Home from "./pages/Home";
+import Footer from "./components/footer";
 
 import "./App.css"
 
@@ -9,6 +10,7 @@ function App() {
     <React.Fragment>
       <Nav/>
       <Home/>
+      <Footer/>
     </React.Fragment>
   );
 }

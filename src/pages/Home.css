@@ -46,7 +46,7 @@
     width: 50%;
 }
 
-button {
+.white_buttons {
     background-color: white;
     color: purple;
     border: none;
@@ -56,10 +56,11 @@ button {
     text-decoration: none;
     display: inline-block;
     border-radius: 20%;
+    border-style: solid;
+    border-color: purple;
 }
 
-#purple_block{
-    /* height: 300px; */
+.purple_block{
     color: white;
     font-weight: bold;
     text-align: center;
@@ -74,7 +75,6 @@ button {
 }
 
 .course{
-    /* height: 700px; */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -103,39 +103,30 @@ button {
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    /* background-color: greenyellow; */
-
 }
 
 #titel{
     padding: 30px;
     text-align: center;
     padding-bottom: 5%;
-    /* background-color: blue; */
 }   
 
 #behaviors{
     margin: auto;
     padding: 2%;
     text-align: center;
-    /* background-color: red; */
 }
 
 #list_div{
     width: 60%;
     margin: auto;
     text-align: left;
-    /* background-color: orange; */
 }
 
 #list{
-    /* padding: "5px 0px 0px 50px"; */
     font-size: large;
     font-weight: bold;
-    /* background-color: rgb(242, 0, 255); */
 }
-
-
 /* Numbers */
 /* Wall Street */
 

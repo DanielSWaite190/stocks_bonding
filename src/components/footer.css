@@ -1,0 +1,19 @@
+#footer{margin: 18px;}
+
+#footer_img{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 80px;
+    margin: 10px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+}
+
+#contact_button{width: 30%;}
+
+
+
