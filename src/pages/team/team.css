@@ -1,0 +1,21 @@
+#meet{height: 300px;}
+
+/* #team_members{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.team_card{
+    background-color: rgb(225, 225, 225);
+    width: 45%;
+}
+
+.card_img{
+    border-radius: 50%;
+    height: 250px;
+    margin: 30px;
+}
+
+.card_body{
+    margin: 30px;
+}
