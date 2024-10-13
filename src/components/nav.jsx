@@ -19,6 +19,8 @@ function nav() {
             
             <Nav.Link href="/team">Meet our Team</Nav.Link>
 
+            <Nav.Link href="/calendar">Calendar</Nav.Link>
+
             <Nav.Link href="/chat">Chat Room</Nav.Link>
 
             <Nav.Link href="/enroll">Enroll</Nav.Link>

@@ -10,7 +10,7 @@ function team () {
 
       <div id="team_members">
         <div class="team_card">
-          <img class="card_img" src="/media/melissa_waite.jpg"/>
+          <img class="card_img" src="/media/melissa_waite.jpg" alt=""/>
 
           <div class="card_body">
             <h1 class="card_titel">
@@ -51,7 +51,7 @@ function team () {
         </div>
 
         <div class="team_card">
-          <img class="card_img" src="/media/caroline_kelly.jpg"/>
+          <img class="card_img" src="/media/caroline_kelly.jpg" alt=""/>
 
           <div class="card_body">
             <h1 class="card_titel">
@@ -76,7 +76,7 @@ function team () {
         </div>
 
         <div class="team_card">
-          <img class="card_img" src="/media/guest_lecturers.jpg"/>
+          <img class="card_img" src="/media/guest_lecturers.jpg" alt=""/>
 
           <div class="card_body">
             <h1 class="card_titel">Guest Lecturers</h1>
