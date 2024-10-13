@@ -1,22 +1,23 @@
 import React from "react";
 import Nav from "./components/nav";
-// import Home from "./pages/Home/Home";
+import Home from "./pages/Home/Home";
 import Team from "./pages/team/Team"
 import Footer from "./components/footer";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 import "./App.css"
 
 function App() {
   return (
-    <React.Fragment>
+    <BrowserRouter>
       <Nav/>
-      {/* <Home/> */}
-      <Team/>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/team' element={<Team/>} />
+      </Routes>
       <Footer/>
-
-
-
-    </React.Fragment>
+    </BrowserRouter>
   );
 }
 

@@ -1,7 +1,7 @@
 import './Home.css'
 import React from 'react';
-import HeroImage from '../components/heroImage';
-import ParallaxImg from '../components/ParallaxImg'
+import HeroImage from '../../components/heroImage';
+import ParallaxImg from '../../components/ParallaxImg'
 
 
 function home () {

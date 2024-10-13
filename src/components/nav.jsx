@@ -15,7 +15,7 @@ function nav() {
       <Navbar class="one" data-bs-theme="light">
         <div id="nav-container">
           <Nav>
-            <Nav.Link href="/home" active>Home</Nav.Link>
+            <Nav.Link href="/" active>Home</Nav.Link>
             
             <Nav.Link href="/team">Meet our Team</Nav.Link>
 

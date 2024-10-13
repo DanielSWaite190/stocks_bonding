@@ -1,13 +1,13 @@
 #meet{height: 300px;}
 
-/* #team_members{
-    display: flex;
-    justify-content: space-between;
-} */
+#team_members{border: black;}
 
 .team_card{
     background-color: rgb(225, 225, 225);
-    width: 45%;
+    width: 48%;
+    display: flex;
+    margin: 60px;
+
 }
 
 .card_img{
