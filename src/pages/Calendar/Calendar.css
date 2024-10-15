@@ -1,0 +1,53 @@
+#calendar{height: 228px;}
+
+#body{padding: 2%}
+
+.dates{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+#top{
+    border-top: 2px solid black;
+}
+
+#bottom{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 200px;
+}
+
+.enroll{
+    color: white;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(128, 87, 166);
+}
+
+#calendar_block{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#days{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 80px;
+}
+
+.day:hover{
+    background-color: rgb(139, 116, 168);
+    border: 2px solid purple;
+}
