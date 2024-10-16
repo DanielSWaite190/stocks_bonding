@@ -29,54 +29,59 @@ function calendar() {
       <div id="days">
         <div class="day">
           <p>SUN</p>
-          <p>29</p>
+          <p class="number">29</p>
         </div>
 
         <div class="day">
           <p>MON</p>
-          <p>30</p>
+          <p class="number">30</p>
         </div>
 
         <div class="day">
           <p>TUE</p>
-          <p>31</p>
+          <p class="number">31</p>
         </div>
 
         <div class="day">
           <p>WED</p>
-          <p>1</p>
+          <p class="number">1</p>
         </div>
 
         <div class="day">
           <p>THU</p>
-          <p>2</p>
+          <p class="number">2</p>
         </div>
-        <div class="day">
+
+        <div class="day" >
           <p>FRI</p>
-          <p>3</p>
+          <p class="number" style={{border: '2px solid purple'}}>3</p>
         </div>
+        
         <div class="day">
           <p>SAT</p>
-          <p>4</p>
+          <p class="number">4</p>
         </div>
       </div>
 
-      <div id="bottom" class="dates">
-      <div>
-        <h4>Workshop #1 (January 31, 2025)</h4>
-        <h6>Available Online</h6>
+      <div id="current" > 
+        <div>
+          <p>8:00 am</p>
+          <p>1 hr</p>
+        </div>  
+
+        <div>
+          <p>Workshop #1 (January 17, 2025)</p>
+          <p>Melissa Waite</p>
+        </div>
+
+        <div>
+          <div id="empty"/>
+          <p>500 spots available</p>
+        </div>
+        <button class="enroll">Enroll</button>
       </div>
-      <p>Free</p>
-      <button class="enroll">Enroll</button>
     </div>
-
-
-
-    </div>
-
-
   </div>
-
   </React.Fragment>
   );
 }

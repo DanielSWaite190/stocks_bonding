@@ -31,6 +31,7 @@
     margin: auto;
     width: 50%;
     text-align: center;
+
 }
 
 #days{
@@ -43,11 +44,27 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* border: 2px solid black; */
     width: 80px;
 }
 
-.day:hover{
+.number{
+    height: 50px;
+    padding: 10%;
+}
+
+.number:hover{
     background-color: rgb(139, 116, 168);
     border: 2px solid purple;
+}
+
+#current{
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#empty{
+    width: 30px;
+    height: 30px;
 }
