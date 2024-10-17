@@ -1,0 +1,31 @@
+#chat_body{
+    margin: auto;
+    width: 60%;
+}
+
+#rooms{
+    border: 1px solid lightgray;
+    padding: 2%
+}
+
+#sort{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#group_card{display: flex;}
+
+#substext{
+    /* font-size: small; */
+    display: flex;
+    height: 20px;
+    width: 100%;
+}
+
+#button_enclosing{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}

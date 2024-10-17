@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Team from "./pages/team/Team"
 import Footer from "./components/footer";
 import Calendar from "./pages/Calendar/Calendar"
+import Chat from "./pages/chat/chat";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -17,7 +18,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/team' element={<Team/>} />
         <Route path='/calendar' element={<Calendar/>} />
-        {/* <Route path='/chat' element={<Chat/>} /> */}
+        <Route path='/chat' element={<Chat/>} />
         {/* <Route path='/enroll' element={<Enroll/>} /> */}
         {/* <Route path='/assessment' element={<Assessment/>} /> */}
         {/* <Route path='/thinkific' element={<Thinkific/>} /> */}
