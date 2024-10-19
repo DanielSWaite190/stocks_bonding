@@ -2,10 +2,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image'
 import Nav from 'react-bootstrap/Nav';
 import React from 'react';
-import './nav.css'
+import './Navi.css'
 
 
-function nav() {
+function Navi() {
   return (
     <React.Fragment>
       <div id="s_b_box">
@@ -36,4 +36,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default Navi;

@@ -1,7 +1,7 @@
 import React from "react";
-import "./chat.css"
+import "./Chat.css"
 
-function chat() {
+function Chat() {
   return (
   <React.Fragment>
     <div class="purple_block" id="calendar"><h1>Chat Room</h1></div>
@@ -38,4 +38,4 @@ function chat() {
   );
 }
 
-export default chat;
+export default Chat;

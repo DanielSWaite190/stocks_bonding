@@ -1,7 +1,7 @@
-import "./heroImage.css"
+import "./HeroImage.css"
 import React from 'react';
 
-function heroImage() {
+function HeroImage() {
   return (
     <div id="citty">
       <div id="container">
@@ -12,4 +12,4 @@ function heroImage() {
   );
 }
 
-export default heroImage 
+export default HeroImage 

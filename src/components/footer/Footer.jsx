@@ -1,9 +1,9 @@
-import './footer.css'
+import './Footer.css'
 import React from 'react';
 import Image from 'react-bootstrap/Image'
 
 
-function footer() {
+function Footer() {
   return (
     <div id="footer">
       <div id="footer_img">
@@ -19,4 +19,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

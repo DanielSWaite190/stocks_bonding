@@ -1,10 +1,10 @@
 import './Home.css'
 import React from 'react';
-import HeroImage from '../../components/heroImage';
+import HeroImage from '../../components/heroImage/HeroImage';
 import ParallaxImg from '../../components/ParallaxImg'
 
 
-function home () {
+function Home () {
   const display_board = "/media/display_board.jpg"
   const numbers = "/media/numbers.jpeg"
   const wall_street = "/media/wall_street.jpg"
@@ -147,4 +147,4 @@ function home () {
   );
 }
 
-export default home;
+export default Home;

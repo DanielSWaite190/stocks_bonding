@@ -1,7 +1,7 @@
 import React from 'react';
-import './team.css'
+import './Team.css'
 
-function team () {
+function Team () {
   return (
     <React.Fragment>
       <div id="meet" class="purple_block">
@@ -91,4 +91,4 @@ function team () {
   );
 }
 
-export default team;
+export default Team;

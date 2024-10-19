@@ -1,7 +1,7 @@
 import React from "react";
 import "./Calendar.css"
 
-function calendar() {
+function Calendar() {
   return (
   <React.Fragment>
   <div class="purple_block" id="calendar"><h1>CALENDAR</h1></div>
@@ -86,4 +86,4 @@ function calendar() {
   );
 }
 
-export default calendar;
+export default Calendar;
