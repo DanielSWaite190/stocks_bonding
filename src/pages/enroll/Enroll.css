@@ -1,0 +1,23 @@
+#body-en{
+    text-align: center;
+    height: 800px;
+}
+
+#enroll{
+    height: 200px;
+    margin-bottom: 2.5%;
+}
+
+#price_plan{
+    width: 30%;
+    height: 40%;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-top: 2.5%;
+    padding-top: 2%
+}
+
+#select_button{
+    margin: 7%;
+    width: 60%;
+} 
