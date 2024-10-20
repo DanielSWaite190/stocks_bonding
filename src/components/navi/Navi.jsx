@@ -26,7 +26,7 @@ function Navi() {
             <Nav.Link href="/enroll">Enroll</Nav.Link>
 
             <Nav.Link href="/assessment">Need Assessment</Nav.Link>
-          
+            
             <Nav.Link href="/thinkific">Thinkific</Nav.Link>
           </Nav>
           <Nav.Link href="/login">Log In</Nav.Link>
