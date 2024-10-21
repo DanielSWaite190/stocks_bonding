@@ -5,10 +5,8 @@ function Assessment(props) {
   return (props.trigger) ? (
     <div className='popup'>
       <div className='popup-inner'>
-        
         <form id="form">
           <h1>Please fill out this questionnaire :</h1>
-
           <div id="top-form">
             <div style={{width: "50%"}}>
               <p>
@@ -32,32 +30,26 @@ function Assessment(props) {
 
           <div>
             <p>Do you have a clear plan to pay off your debt?</p>
-            <div class="dropdown">
-              <div class="dropdown-content">
-                <p>Yes</p>
-                <p>No</p>
-              </div>
-            </div>
+            <select style={{width:"100%"}}>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
           </div>
 
           <div>
             <p>Do you have a written budget that you stick to monthly ?</p>
-            <div class="dropdown">
-              <div class="dropdown-content">
-                <p>Yes</p>
-                <p>No</p>
-              </div>
-            </div>        
+            <select style={{width:"100%"}}>
+              <option>Yes</option>
+              <option>No</option>
+            </select>      
           </div>
 
           <div>
             <p>Do you have a 401k that you have left at a previous place of employment ?</p>
-            <div class="dropdown">
-              <div class="dropdown-content">
-                <p>Yes</p>
-                <p>No</p>
-              </div>
-            </div>
+            <select style={{width:"100%"}}>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
           </div>
           
           <div>
@@ -65,16 +57,18 @@ function Assessment(props) {
               Do you feel you may have too much in your savings but fear or lack the knowledge to explore
               alternatives to just saving?
             </p>
+            <select style={{width:"100%"}}>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
           </div>
 
           <div>
             <p>If you have children, do you have a plan to pay for their college?</p>
-            <div class="dropdown">
-              <div class="dropdown-content">
-                <p>Yes</p>
-                <p>No</p>
-              </div>
-            </div>
+            <select style={{width:"100%"}}>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
           </div>
 
           <div>
@@ -82,12 +76,10 @@ function Assessment(props) {
               Do you feel confused about the different types of life insurance policies available and how life The fact that there was a huge demand for learning about the
               insurance fits into your overall financial plan? stock market was the most exciting thing. In order to
             </p>
-            <div class="dropdown">
-              <div class="dropdown-content">
-                <p>Yes</p>
-                <p>No</p>
-              </div>
-            </div>                 
+            <select style={{width:"100%"}}>
+              <option>Yes</option>
+              <option>No</option>
+            </select>       
           </div>
 
           <div>
