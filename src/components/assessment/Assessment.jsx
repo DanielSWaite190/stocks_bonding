@@ -9,23 +9,23 @@ function Assessment(props) {
           <h1>Please fill out this questionnaire :</h1>
           <div id="top-form">
             <div style={{width: "50%"}}>
-              <p>
-                Name, Age, State you live in and status <br/>
+              <p>Full name</p>
+              {/* <p>
+                Name, Age, State you live in and status
                 (Single, Married, Divorced, Widowed) :
-              </p>
-              <input type="text" id="fname" name="fname" size="30"/>
+              </p> */}
+              <input type="text" id="fname" name="fname" style={{width: "100%"}}/>
             </div>
             
-            <div style={{width: "50%",}}>
-              <br/>
+            <div style={{width: "50%"}}>
               <p>Email*</p>
-              <input type="text" id="fname" name="fname" size="30"/>
+              <input type="text" id="email" name="email" style={{width: "100%"}}/>
             </div>
           </div>
         
           <div>
             <p>How much non-mortgage debt do you have?</p>
-            <input type="text" id="fname" name="fname" size="70"/>
+            <input type="text" id="debt" style={{width: "100%"}}/>
           </div>
 
           <div>
@@ -84,7 +84,7 @@ function Assessment(props) {
 
           <div>
             <p>What issue concerns you the most regarding your finances ?</p>
-            <input type="text" id="fname" name="fname" size="70"/>
+            <input type="text" id="issue" style={{width: "100%"}}/>
           </div>
 
           <button>Submit</button>

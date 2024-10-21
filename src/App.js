@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <Nav/>
-      <Assessment trigger={buttonPopup} setTrigger={setButtonPopup}></Assessment>
+      {/* <Assessment trigger={buttonPopup} setTrigger={setButtonPopup}></Assessment> */}
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/team' element={<Team/>} />
@@ -28,7 +28,7 @@ function App() {
         {/* <Route path='/thinkific' element={<Thinkific/>} /> */}
         {/* <Route path='/login' element={<Login/>} /> */}
       </Routes>
-      <button onClick={() => setButtonPopup(!buttonPopup)}>Need Assessment</button>
+      {/* <button onClick={() => setButtonPopup(!buttonPopup)}>Need Assessment</button> */}
       <Footer/>
     </BrowserRouter>
   );
