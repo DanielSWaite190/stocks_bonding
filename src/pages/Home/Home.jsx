@@ -11,7 +11,19 @@ function Home () {
 
   return (
     <React.Fragment>
-      <HeroImage/>
+      {/* <HeroImage/> */}
+
+      {/* <img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/> */}
+
+
+      <div id="citty">
+        <div id="container">
+          {/* <div id="white"/> */}
+          <div id="dan"><img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/></div>
+          {/* <div id="dan"><img id="wall" src="/media/rose.JPG" alt='Stocks and Bonding logo'/></div> */}
+        </div>
+      </div>
+
 
       <div id="mountains" style={{backgroundImage: `url(media/mountains.jpg)`}}>
         <div id="overlay">

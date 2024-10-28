@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "./components/navi/Navi";
 import Home from "./pages/home/Home";
 import Team from "./pages/team/Team"
@@ -12,12 +12,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./App.css"
 
 function App() {
-  const [buttonPopup, setButtonPopup] = useState(false)
-
   return (
     <BrowserRouter>
       <Nav/>
-      {/* <Assessment trigger={buttonPopup} setTrigger={setButtonPopup}></Assessment> */}
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/team' element={<Team/>} />
@@ -28,7 +25,6 @@ function App() {
         {/* <Route path='/thinkific' element={<Thinkific/>} /> */}
         {/* <Route path='/login' element={<Login/>} /> */}
       </Routes>
-      {/* <button onClick={() => setButtonPopup(!buttonPopup)}>Need Assessment</button> */}
       <Footer/>
     </BrowserRouter>
   );
