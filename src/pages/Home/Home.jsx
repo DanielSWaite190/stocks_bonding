@@ -19,7 +19,7 @@ function Home () {
       <div id="citty">
         <div id="container">
           {/* <div id="white"/> */}
-          <div id="dan"><img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/></div>
+          {/* <div id="dan"><img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/></div> */}
           {/* <div id="dan"><img id="wall" src="/media/rose.JPG" alt='Stocks and Bonding logo'/></div> */}
         </div>
       </div>
