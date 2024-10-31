@@ -1,8 +1,31 @@
-/* Mountains */
-
 /* #root{background-color: rgb(82, 85, 83);} */
 
-#overlay{
+/* S&B Logo */
+#citty{
+    background-image: url("../../../public//media//citty.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#img_container{
+    display: flex;
+    justify-content: center;
+}
+
+#wall{
+    margin-top: 4%;
+    height: 80%;
+    width: 50%;
+}
+
+/* Mountains */
+#grey_overlay{
     background-color: rgba(220, 220, 220, 0.73);
     overflow: hidden;
     height: 100%;
@@ -127,3 +150,7 @@
     font-size: large;
     font-weight: bold;
 }
+
+
+
+

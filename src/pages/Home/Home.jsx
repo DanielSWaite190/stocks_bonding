@@ -1,6 +1,5 @@
 import './Home.css'
 import React from 'react';
-import HeroImage from '../../components/heroImage/HeroImage';
 import ParallaxImg from '../../components/ParallaxImg'
 
 
@@ -11,22 +10,14 @@ function Home () {
 
   return (
     <React.Fragment>
-      {/* <HeroImage/> */}
-
-      {/* <img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/> */}
-
-
       <div id="citty">
-        <div id="container">
-          {/* <div id="white"/> */}
-          {/* <div id="dan"><img id="wall" src="./media/s_b_wall.webp" alt='Stocks and Bonding logo'/></div> */}
-          {/* <div id="dan"><img id="wall" src="/media/rose.JPG" alt='Stocks and Bonding logo'/></div> */}
+        <div id="img_container">
+          <img id="wall" src="./media/s_b_wall.png" alt='Stocks and Bonding logo'/>
         </div>
       </div>
 
-
       <div id="mountains" style={{backgroundImage: `url(media/mountains.jpg)`}}>
-        <div id="overlay">
+        <div id="grey_overlay">
           <section id="s_one">
             <h1 class="purple bold" >THE STOCKS AND BONDING ACADEMY</h1>
             <h2 class="purple bold">A CORPORATE FINANCIAL WELLNESS SOLUTIO</h2>
