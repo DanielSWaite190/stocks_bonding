@@ -1,24 +1,24 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image'
 import Nav from 'react-bootstrap/Nav';
-// import React from 'react';
 import React, { useState } from "react";
 import Assessment from '../assessment/Assessment';
+import SignUp from '../signUp/SignUp';
 
 import './Navi.css'
 
 
 function Navi() {
-
-  const [buttonPopup, setButtonPopup] = useState(false)
+  const [assessmentPopup, setAssessmentPopup] = useState(false)
+  const [signUpPopup, setSignUpButtonPopup] = useState(false)
 
   return (
     <React.Fragment>
-
+      
       <div id="s_b_box">
           <Image src="media/s_b_box.webp"/>
       </div>
-      
+
       <Navbar class="one" data-bs-theme="light">
         <div id="nav-container">
           <Nav>
@@ -32,19 +32,17 @@ function Navi() {
 
             <Nav.Link href="/enroll">Enroll</Nav.Link>
             
-            <button onClick={() => setButtonPopup(!buttonPopup)}>Need Assessment</button>
+            <Nav.Link onClick={() => setAssessmentPopup(!assessmentPopup)}>Need Assessment</Nav.Link>
 
-            {/* <Nav.Link href="/assessment">Need Assessment</Nav.Link> */}
-            
-            <Nav.Link href="/thinkific">Thinkific</Nav.Link>
+            <Nav.Link onClick={() => setSignUpButtonPopup(!signUpPopup)}>Thinkific</Nav.Link>
           </Nav>
 
-          {/* <Assessment trigger={buttonPopup} setTrigger={setButtonPopup}></Assessment> */}
-
           <Nav.Link href="/login">Log In</Nav.Link>
+
         </div>
       </Navbar>
-      <Assessment trigger={buttonPopup} setTrigger={setButtonPopup}></Assessment>
+      <Assessment trigger={assessmentPopup} setTrigger={setAssessmentPopup}></Assessment>
+      <SignUp trigger={signUpPopup} setTrigger={setSignUpButtonPopup}></SignUp>
 
     </React.Fragment>
   );

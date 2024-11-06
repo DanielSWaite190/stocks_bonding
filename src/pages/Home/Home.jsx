@@ -50,7 +50,7 @@ function Home () {
           </section>
 
           <section class="buttons">
-            <button class="white_buttons">Enroll</button>
+            <button href="/enroll" onClick={() => setButtonPopup(!buttonPopup)} class="white_buttons">Enroll</button>
             <button class="white_buttons">Quizzes, Transcripts</button>
           </section>
         </div>

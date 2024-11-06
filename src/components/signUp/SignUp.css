@@ -1,0 +1,45 @@
+#signUpPage{background-color: white;}
+
+#signUpBody{
+    background-color: white;
+    text-align: center;
+    height: 600px;
+    width: 600px;
+
+}
+
+
+.link-text{
+    display: flex;
+    justify-content: center;
+}
+
+.option{
+    width: 70%;
+    border: solid grey 1px;
+    margin: auto;
+    padding: 1%;
+
+    display: flex;
+    /* justify-content: center; */
+    
+
+    background-color: antiquewhite;
+}
+
+#google{
+    margin-top: 1%;
+    margin-right: 3%;
+    /* margin-top: 1px; */
+    /* margin-top: 1px; */
+    /* display: flex; */
+    /* float: left; */
+    width: 100px;
+    display: flex;
+    float: left;
+}
+
+#content{
+    text-align: center;
+    background-color: white;
+}

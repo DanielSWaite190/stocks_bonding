@@ -5,7 +5,7 @@ import Team from "./pages/team/Team"
 import Footer from "./components/footer/Footer";
 import Calendar from "./pages/calendar/Calendar"
 import Enroll from "./pages/enroll/Enroll";
-import Assessment from './components/assessment/Assessment';
+import SignUp from "./components/signUp/SignUp";
 import Chat from "./pages/chat/Chat";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -21,8 +21,7 @@ function App() {
         <Route path='/calendar' element={<Calendar/>} />
         <Route path='/Chat' element={<Chat/>} />
         <Route path='/enroll' element={<Enroll/>} />
-        {/* <Route path='/assessment' element={<Assessment trigger={buttonPopup}></Assessment>} /> */}
-        {/* <Route path='/thinkific' element={<Thinkific/>} /> */}
+        <Route path='/thinkific' element={<SignUp/>} />
         {/* <Route path='/login' element={<Login/>} /> */}
       </Routes>
       <Footer/>

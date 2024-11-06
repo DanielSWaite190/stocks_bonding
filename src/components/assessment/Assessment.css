@@ -19,7 +19,6 @@
     width: 50%;
     height: 100vh;
     background-color: white;
-
 }
 
 .popup-inner.close-btn{
@@ -38,9 +37,6 @@
 }
 
 /* #fname{size: 80;} */
-
-#form{width: 90%; margin: auto;}
-
   
 /* dropdown */
 .dropdown {
