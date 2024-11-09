@@ -1,18 +1,33 @@
 import CloseButton from 'react-bootstrap/CloseButton';
-import React from 'react';
+import React, { useState } from "react";
 import './SignUp.css'
 
 function SignUp(props) {
-  return (props.trigger) ? (
+  const [isHidden, setIsHidden] = useState(true);
+
+  const handleToggle = () => {
+    setIsHidden(!isHidden);
+  };
+
+  return (props.accountPopup === "SignUp") ? (
     <div id="signUpPage" className='popup'>
-      <CloseButton id="x" onClick={() => props.setTrigger(false)}/>
+      <CloseButton id="x" onClick={() => props.setAccountPopup(false)}/>
       <div id="content">
 
       <h1>Sign Up</h1>
 
       <div class="link-text">
-        <p>Already a member?&nbsp;</p>
-        <p style={{color: "purple"}}>Log In</p>
+        <p>Already a member?</p>
+        {/* <a 
+          onClick={() => props.setAccountPopup("LogIn")}
+          style={{color: "purple"}}>Log In
+        </a> */}
+
+        <button 
+          id="textButton"
+          onClick={() => props.setAccountPopup("LogIn")}
+          style={{color: "purple"}}>Log In
+        </button>
       </div>
 
       <div class="option">
@@ -31,13 +46,14 @@ function SignUp(props) {
       <div class="link-text">
         <input style={{marginTop: "55px"}} type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
         <p style={{marginTop: "50px"}}>&nbsp;Sign up to this site with a public profile.&nbsp;</p>
-        <a href="/" style={{marginTop: "50px", color: "purple"}}>Read more</a>
+        <p 
+          onClick={handleToggle}
+          style={{marginTop: "50px", textDecoration: "underline"}}>{!isHidden ? "Read Less" : "Read More"}
+        </p>
       </div>
 
-      <p hidden>
-        Your profile will be set to public automatically when you sign up.
-        You can change this later in your profile settings.
-      </p>
+      {!isHidden && <p> Your profile will be set to public automatically when you sign up.
+      You can change this later in your profile settings.</p>}
     </div>
   </div>
   ) : "";
