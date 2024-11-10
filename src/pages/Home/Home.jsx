@@ -1,9 +1,12 @@
-import './Home.css'
-import React from 'react';
+import React, { useState } from "react";
 import ParallaxImg from '../../components/ParallaxImg'
-
+import SignUp from '../../components/signUp/SignUp';
+import LogIn from '../../components/logIn/LogIn';
+import './Home.css'
 
 function Home () {
+  const [accountPopup, setAccountPopup] = useState(false);
+
   const display_board = "/media/display_board.jpg"
   const numbers = "/media/numbers.jpeg"
   const wall_street = "/media/wall_street.jpg"
@@ -50,38 +53,45 @@ function Home () {
           </section>
 
           <section class="buttons">
-            <button href="/enroll" onClick={() => setButtonPopup(!buttonPopup)} class="white_buttons">Enroll</button>
-            <button class="white_buttons">Quizzes, Transcripts</button>
+            <a href="/enroll" 
+              class="white_buttons"
+              style={{borderRadius: '50px', padding: '20px 30px', width: "400px"}}>Enroll
+            </a>
+            <button
+              style={{borderRadius: '50px', padding: '20px 30px', width: "400px"}}
+              onClick={() => setAccountPopup("SignUp")}
+              class="white_buttons">Quizzes, Transcripts
+            </button>
           </section>
         </div>
       </div>
 
       <div class="purple_block">
-        <h1>What will your employees learn?</h1>
+        <h1 id="What_you_lear">What will your employees learn?</h1>
 
         <ul id="learn">
           <div class="item">
-            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <img src="./media/spending.png" height="100px" width="100px" alt=""/>
             <p>How to address unhealthy spending habits</p>
           </div>
 
           <div class="item">
-            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <img src="./media/planning.png" height="100px" width="100px" alt=""/>
             <p>How to create a budget and stick to it</p>
           </div>
 
           <div class="item">
-            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <img src="./media/debt.png" height="100px" width="100px" alt=""/>
             <p>How to reduce debt</p>
           </div>
 
           <div class="item">
-            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <img src="./media/stocks.png" height="100px" width="100px" alt=""/>
             <p>All about the STOCK MARKET and INVESTING</p>
           </div>
 
           <div class="item">
-            <img src="./media/rose.jpg" height="100px" width="100px" alt=""/>
+            <img src="./media/plus.png" height="100px" width="100px" alt=""/>
             <p>And More !!</p>
           </div>
         </ul>
@@ -114,7 +124,14 @@ function Home () {
             <li>Traditional 401(k) vs. Roth 401(k) and IRA’s</li>
           </ul>
         </div>
-        <button class="white_buttons"> + Enroll</button>
+        <a 
+          href="/enroll" class="white_buttons"
+          style={{
+            borderRadius: '50px',
+            padding: '20px 30px',
+            width: "400px",
+            margin: "60px 0px 20px"}}>+ Enroll
+        </a>
       </div>
         
       <ParallaxImg img={display_board} size={"400px"}/>
@@ -146,6 +163,8 @@ function Home () {
       <ParallaxImg img={numbers} size={"400px"}/>
       <div class="purple_block" style={{height: "700px"}}/>
       <ParallaxImg img={wall_street} size={"400px"}/>
+      <SignUp accountPopup={accountPopup} setAccountPopup={setAccountPopup}/>
+      <LogIn accountPopup={accountPopup} setAccountPopup={setAccountPopup}/>
     </React.Fragment>
   );
 }

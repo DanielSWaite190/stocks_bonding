@@ -66,19 +66,20 @@
     justify-content: space-between;
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 70%;
+    margin-bottom: 30px;
 }
 
 .white_buttons {
     background-color: white;
     color: purple;
-    border: none;
+    border: 1px;
     width: 200px;
-    padding: 20px;
+    /* padding: 10px 20px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 20%;
+    /* border-radius: 20%; */
     border-style: solid;
     border-color: purple;
 }
@@ -89,6 +90,8 @@
     text-align: center;
     background-color: rgb(36, 15, 56);
 }
+
+#What_you_lear{padding: 30px;}
 
 #learn{display: flex;}
 
@@ -119,7 +122,6 @@
 }
 
 /* Display Board */
-
 #workshop{
     height: 800px;
     display: flex;
@@ -150,7 +152,3 @@
     font-size: large;
     font-weight: bold;
 }
-
-
-
-

@@ -18,11 +18,6 @@ function SignUp(props) {
 
       <div class="link-text">
         <p>Already a member?</p>
-        {/* <a 
-          onClick={() => props.setAccountPopup("LogIn")}
-          style={{color: "purple"}}>Log In
-        </a> */}
-
         <button 
           id="textButton"
           onClick={() => props.setAccountPopup("LogIn")}
