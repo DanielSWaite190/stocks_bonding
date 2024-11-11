@@ -1,13 +1,24 @@
 #meet{height: 300px;}
 
-#team_members{border: black;}
+#flex_container{
+    display: flex;
+    justify-content: center;
+}
+
+#team_members{
+    border: black;
+    width: 100vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .team_card{
     background-color: rgb(225, 225, 225);
-    width: 48%;
     display: flex;
-    margin: 60px;
-
+    width: 700px;
+    margin: 30px;
 }
 
 .card_img{
@@ -16,6 +27,6 @@
     margin: 30px;
 }
 
-.card_body{
-    margin: 30px;
-}
+.card_body{margin: 30px;}
+
+.bio{width: 100%;}

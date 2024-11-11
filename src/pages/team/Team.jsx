@@ -18,7 +18,7 @@ function Team () {
               Founder and CEO
             </h1>
 
-            <p>
+            <p class="bio">
               The majority of my adult life was spent as a stay at home mom supporting
               my husband and raising my son and daughter. However, once both children had
               graduated and were in college, I immediately began studying for my series 7.
@@ -59,7 +59,7 @@ function Team () {
               Master Financial Coach
             </h1>
 
-            <p>
+            <p class="bio">
             Caroline Kelly utilizes her expertise as a Master Financial Coach and Transformational 
             Life Coach to help clients dispel myths and reset their mindset around financial, 
             relational, and business challenges.  This allows those she works with to bring clearer 
@@ -80,13 +80,11 @@ function Team () {
 
           <div class="card_body">
             <h1 class="card_titel">Guest Lecturers</h1>
-            <p><u>Daisy Fernandez</u>, Edward Jones Financial Advisor</p>
-            <p><u>Tammy Martinez</u>, Edward Jones Financial Advisor</p>
+            <p class="bio"><u>Daisy Fernandez</u>, Edward Jones Financial Advisor</p>
+            <p class="bio"><u>Tammy Martinez</u>, Edward Jones Financial Advisor</p>
           </div>
         </div>
       </div>
-
-
     </React.Fragment>
   );
 }
