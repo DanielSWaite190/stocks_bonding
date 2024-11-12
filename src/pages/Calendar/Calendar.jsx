@@ -9,17 +9,27 @@ function Calendar() {
     <div id="top" class="dates">
       <div>
         <h4>Workshop #1 (January 17, 2025)</h4>
-        <h6>Available Online</h6>
+        <div class="online">
+          <img alt="video icon" src="./media/camera.png" width={20} height={20}/>
+          <p>Available Online</p>
+        </div>
       </div>
+      <p>Fri</p>
       <button class="enroll">Enroll</button>
     </div>
 
     <div id="bottom" class="dates">
       <div>
         <h4>Workshop #1 (January 31, 2025)</h4>
-        <h6>Available Online</h6>
+        <div class="online">
+          <img alt="video icon" src="./media/camera.png" width={20} height={20}/>
+          <p>Available Online</p>
+        </div>
       </div>
-      <p>Free</p>
+      <div>
+        <p>Fri</p>
+        <p>Free</p>
+      </div>
       <button class="enroll">Enroll</button>
     </div>
 

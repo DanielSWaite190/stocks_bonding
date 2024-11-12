@@ -5,7 +5,7 @@ function Team () {
   return (
     <React.Fragment>
       <div id="meet" class="purple_block">
-        <h1>MEET THE TEAM!</h1>
+        <h1>MEET THE TEAM</h1>
       </div>
 
       <div id="team_members">
