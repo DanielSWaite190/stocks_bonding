@@ -10,10 +10,6 @@ function Assessment(props) {
           <div id="top-form">
             <div style={{width: "50%"}}>
               <p>Full name</p>
-              {/* <p>
-                Name, Age, State you live in and status
-                (Single, Married, Divorced, Widowed) :
-              </p> */}
               <input type="text" id="fname" name="fname" style={{width: "100%"}}/>
             </div>
             

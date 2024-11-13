@@ -6,8 +6,11 @@ function Chat() {
   <React.Fragment>
     <div class="purple_block" id="calendar"><h1>Chat Room</h1></div>
     <div id="chat_body">
-      <h3>CHAT ROOMS</h3>
-      <p>Sort by: Recent Activity | </p>
+      <h3 style={{marginBottom: "30px"}}>CHAT ROOMS</h3>
+      <div style={{display: "flex"}}>
+        <p>Sort by: Recent Activity | </p>
+        <img alt="maganafing glass" src="/media/maganafing_glass.png" height={30} width={30}/>
+      </div>
 
       <div id="rooms">
         <div id="sort">
@@ -17,12 +20,11 @@ function Chat() {
         </div>
         
         <div id="group_card">
-          <img src="/media/groups.jpg" alt="" width="130px" height="60px" style={{paddingRight: "1%"}}/>
+          <img alt="group of people" src="/media/groups.jpg" width="130px" height="60px" style={{paddingRight: "1%"}}/>
           <div style={{width: "20%"}}>
             <p><b>My Site 4 Group</b></p>
             <div id="substext">
-              <p>Private·</p>
-              <p>1 member</p>
+              <p>Private &nbsp; · &nbsp; 1 member</p>
             </div>  
           </div>
 

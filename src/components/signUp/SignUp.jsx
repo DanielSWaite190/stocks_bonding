@@ -39,7 +39,7 @@ function SignUp(props) {
       </div>
 
       <div class="link-text">
-        <input style={{marginTop: "55px"}} type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/>
+        <input id="readMore" style={{marginTop: "55px"}} type="checkbox" checked/>
         <p style={{marginTop: "50px"}}>&nbsp;Sign up to this site with a public profile.&nbsp;</p>
         <p 
           onClick={handleToggle}

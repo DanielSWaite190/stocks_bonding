@@ -1,6 +1,6 @@
 #body-en{
     text-align: center;
-    height: 800px;
+    height: 700px;
 }
 
 #enroll{
@@ -14,10 +14,9 @@
     border: 1px solid lightgray;
     margin: auto;
     margin-top: 2.5%;
-    padding-top: 2%
+    padding-top: 2%;
 }
 
-#select_button{
-    margin: 7%;
-    width: 60%;
-} 
+#select_button{width: 60%;}
+
+.small{font-size: small;}

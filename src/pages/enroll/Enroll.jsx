@@ -10,8 +10,8 @@ function Enroll () {
         <div id="price_plan">
           <p>11/person per month</p>
           <h1>$11</h1>
-          <p>Every month</p>
-          <p>+$3,000 Training workshops</p>
+          <p class="small">Every month</p>
+          <p class="small" style={{paddingBottom: "30px"}}>+$3,000 Training workshops</p>
           <button class="enroll" id="select_button">Select</button>
         </div>
     </div>
