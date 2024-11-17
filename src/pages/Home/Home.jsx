@@ -161,7 +161,7 @@ function Home () {
       </div>
 
       <ParallaxImg img={numbers} size={"400px"}/>
-      <div class="purple_block" style={{height: "700px"}}/>
+      <div class="purple_block" style={{height: "600px"}}/>
       <ParallaxImg img={wall_street} size={"400px"}/>
       <SignUp accountPopup={accountPopup} setAccountPopup={setAccountPopup}/>
       <LogIn accountPopup={accountPopup} setAccountPopup={setAccountPopup}/>

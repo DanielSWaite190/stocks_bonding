@@ -1,12 +1,36 @@
-#nav-container{
-  display: flex;
+#pageTitel{
   justify-content: center;
-  width: 100%;
+  display: flex;
 }
 
 #s_b_box{
-  display: flex;
   justify-content: center;
+  display: flex;
   height: 75px;
   margin: 5px;
 }
+
+#logIn{
+  color: rgb(105, 178, 63);
+  position: absolute;
+  display: flex;
+  float: right;
+  width: 100px;
+  right: 150px;
+  top: 30px;
+}
+
+#nav-container{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+nav a{
+  margin: 7px;
+  padding: 6px;
+  color: gray;
+  text-decoration: none;
+}
+
+nav a.active{color: purple;}

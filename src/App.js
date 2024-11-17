@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from "./components/navi/Navi";
 import Home from "./pages/home/Home";
 import Team from "./pages/team/Team"
@@ -7,7 +8,6 @@ import Calendar from "./pages/calendar/Calendar"
 import Enroll from "./pages/enroll/Enroll";
 import LogIn from "./components/logIn/LogIn";
 import Chat from "./pages/chat/Chat";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import "./App.css"
 
