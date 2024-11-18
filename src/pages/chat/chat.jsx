@@ -12,11 +12,22 @@ function Chat() {
         <img alt="maganafing glass" src="/media/maganafing_glass.png" height={30} width={30}/>
       </div>
 
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div id="chat_drop" class="fiber">
+          <a class="chat_item text">Recent Activity</a>
+          <a class="chat_item text">A-Z</a>
+          <a class="chat_item text">Member Count</a>
+        </div>
+      </div>
+
+
+
       <div id="rooms">
         <div id="sort">
-          <p class="cats">All(1)</p>
-          <p class="cats">My Groups</p>
-          <p class="cats">Suggested Groups</p>
+          <p>All(1)</p>
+          <p>My Groups</p>
+          <p>Suggested Groups</p>
         </div>
         
         <div id="group_card">

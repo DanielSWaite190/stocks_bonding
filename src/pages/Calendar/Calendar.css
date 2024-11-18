@@ -41,6 +41,10 @@
   background-color: rgb(128, 87, 166);
 }
 
+.enroll:hover{
+  background-color: rgba(128, 87, 166, 0.584);
+}
+
 #calendar_block{
   margin: auto;
   width: 60%;

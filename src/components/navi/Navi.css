@@ -31,6 +31,8 @@ nav a{
   padding: 6px;
   color: gray;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a.active{color: purple;}
+/* nav a.active{color: rgb(36, 15, 56);} */

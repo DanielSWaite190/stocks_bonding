@@ -22,7 +22,7 @@ function Navi() {
         </div>
 
         <div id="logIn">
-          <img src="/media/profile-user_green.jpg" height={30} width={30} />
+          <img src="/media/profile-user_green.jpg" alt="profile_icon" height={30} width={30} />
           <Nav.Link onClick={() => setAccountPopup("SignUp")}>Log In</Nav.Link>
         </div>
       </div>
@@ -30,19 +30,19 @@ function Navi() {
       <Navbar class="one" data-bs-theme="light">
         <div id="nav-container">
           <Nav>
-            <NavLink to="/" active>Home</NavLink>
+            <NavLink to="/">Home</NavLink>
             
-            <NavLink to="/team" id="navOp">Meet our Team</NavLink>
+            <NavLink to="/team">Meet our Team</NavLink>
 
-            <NavLink to="/calendar" id="navOp">Calendar</NavLink>
+            <NavLink to="/calendar">Calendar</NavLink>
 
-            <NavLink to="/chat" id="navOp">Chat Room</NavLink>
+            <NavLink to="/chat">Chat Room</NavLink>
 
-            <NavLink to="/enroll" id="navOp">Enroll</NavLink>
+            <NavLink to="/enroll">Enroll</NavLink>
             
-            <Nav.Link id="fire" onClick={() => setAssessmentPopup(!assessmentPopup)}>Need Assessment</Nav.Link>
+            <Nav.Link onClick={() => setAssessmentPopup(!assessmentPopup)}>Need Assessment</Nav.Link>
 
-            <Nav.Link id="fire" onClick={() => setAccountPopup("SignUp")}>Thinkific</Nav.Link>
+            <Nav.Link onClick={() => setAccountPopup("SignUp")}>Thinkific</Nav.Link>
           </Nav>
         </div>
       </Navbar>

@@ -80,8 +80,12 @@ function Team () {
 
           <div class="card_body">
             <h1 class="card_titel">Guest Lecturers</h1>
-            <p class="bio"><u>Daisy Fernandez</u>, Edward Jones Financial Advisor</p>
-            <p class="bio"><u>Tammy Martinez</u>, Edward Jones Financial Advisor</p>
+            <p class="bio">
+              <a class="text" href="https://www.edwardjones.com/us-en/financial-advisor/daisy-fernandez">Daisy Fernandez</a>, Edward Jones Financial Advisor
+            </p>
+            <p class="bio">
+              <a class="text" href="https://www.edwardjones.com/us-en/financial-advisor/tammy-l-martinez">Tammy Martinez</a>, Edward Jones Financial Advisor
+            </p>
           </div>
         </div>
       </div>

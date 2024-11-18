@@ -2,34 +2,34 @@
 
 /* S&B Logo */
 #citty{
-    background-image: url("../../../public//media//citty.webp");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 800px;
+  background-image: url("../../../public//media//citty.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #img_container{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #wall{
-    margin-top: 4%;
-    height: 80%;
-    width: 50%;
+  margin-top: 4%;
+  height: 80%;
+  width: 50%;
 }
 
 /* Mountains */
 #grey_overlay{
-    background-color: rgba(220, 220, 220, 0.73);
-    overflow: hidden;
-    height: 100%;
-    z-index: 2;
+  background-color: rgba(220, 220, 220, 0.73);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
 }
 
 .purple{color: purple;}
@@ -37,59 +37,64 @@
 .bold{font-weight: bold;}
 
 #s_one{
-    margin: auto;
-    width: 60%;
-    text-align: center;
+  margin: auto;
+  width: 60%;
+  text-align: center;
 }
 
 #our_team{
-    font-weight: bold;
-    font-size: x-large
+  font-weight: bold;
+  font-size: x-large
 }
 
 #s_two{
-    margin: auto;
-    padding: 30px 30px 10px 30px;
-    width: 60%;
-    flex-direction: row;
-    text-align: center;
+  margin: auto;
+  padding: 30px 30px 10px 30px;
+  width: 60%;
+  flex-direction: row;
+  text-align: center;
 }
 
 #s_three{
-    margin: auto;
-    padding: 30px;
-    padding: 10px 30px 30px 30px;
-    width: 60%;
+  margin: auto;
+  padding: 30px;
+  padding: 10px 30px 30px 30px;
+  width: 60%;
 }
 
 .buttons{
-    justify-content: space-between;
-    display: flex;
-    margin: auto;
-    width: 70%;
-    margin-bottom: 30px;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 30px;
 }
 
 .white_buttons {
-    background-color: white;
-    color: purple;
-    border: 1px;
-    width: 200px;
-    /* padding: 10px 20px; */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    /* border-radius: 20%; */
-    border-style: solid;
-    border-color: purple;
+  background-color: white;
+  color: purple;
+  border: 1px;
+  width: 200px;
+  /* padding: 10px 20px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* border-radius: 20%; */
+  border-style: solid;
+  border-color: purple;
+}
+
+.white_buttons:hover{
+  background-color: rgb(36, 15, 56);
+  color: white;
 }
 
 .purple_block{
-    color: white;
-    padding-top: 5%;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(36, 15, 56);
+  color: white;
+  padding-top: 5%;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(36, 15, 56);
 }
 
 #What_you_lear{padding: 30px;}
@@ -97,13 +102,13 @@
 #learn{display: flex;}
 
 .item{
-    width: 400px;
-    height: 200px;
+  width: 400px;
+  height: 200px;
 }
 
 .course{
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .dark_purple{color: rgb(58, 0, 58);}
@@ -111,45 +116,51 @@
 #new_investors{padding-top: 50px;}
 
 #Employees{
-    margin: auto;
-    padding: 30px;
-    width: 60%;
+  margin: auto;
+  padding: 30px;
+  width: 60%;
 }
 
 #img_list{
-    display: flex;
-    justify-content: center;
-    text-align: left;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.investors{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* Display Board */
 #workshop{
-    height: 800px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+  height: 800px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #titel{
-    padding: 30px;
-    text-align: center;
-    padding-bottom: 5%;
+  padding: 30px;
+  text-align: center;
+  padding-bottom: 5%;
 }   
 
 #behaviors{
-    margin: auto;
-    padding: 2%;
-    text-align: center;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
 }
 
 #list_div{
-    width: 60%;
-    margin: auto;
-    text-align: left;
+  width: 60%;
+  margin: auto;
+  text-align: left;
 }
 
 #list{
-    font-size: large;
-    font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }

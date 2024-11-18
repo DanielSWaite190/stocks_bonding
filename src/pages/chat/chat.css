@@ -35,3 +35,24 @@
   display: flex;
   justify-content: right;
 }
+
+#chat_drop{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.chat_item{
+  padding: 15px;
+  width: 100%;
+}
+
+.chat_item:hover{
+  background-color: rgba(214, 214, 214, 0.992);
+}
+
+.fiber{
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ display: none;
+}

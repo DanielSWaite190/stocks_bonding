@@ -112,7 +112,7 @@ function Home () {
         <div id="img_list">
           <img src="./media/laptop.jpg.webp" width="450px" height="400px" alt=""/>
 
-          <ul class="bold">
+          <ul class="bold investors">
             <li>How does the stock market work?</li>
             <li>How do you make money from investing in the stock market?</li>
             <li>What is stock?</li>

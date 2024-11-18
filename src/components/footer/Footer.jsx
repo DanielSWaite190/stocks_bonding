@@ -11,12 +11,13 @@ function Footer() {
       </div>
 
       <div id="contact">
-        <button
-          class="white_buttons"
-          id="contact_button"
-          style={{borderRadius: '50px', padding: '20px 30px', width: "600px"}}>
-          Contact us for pricing: Melissa@stocksandbonding.com
-        </button>
+        <a href="mailto: Melissa@stocksandbonding.com">
+          <button
+            class="white_buttons"
+            style={{borderRadius: '50px', padding: '20px 30px', width: "600px"}}>
+            Contact us for pricing: Melissa@stocksandbonding.com
+          </button>
+        </a>
       </div>
     </div>
   );
