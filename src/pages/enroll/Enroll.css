@@ -1,20 +1,20 @@
 #body-en{
-    text-align: center;
-    height: 700px;
+  text-align: center;
+  height: 700px;
 }
 
 #enroll{
-    height: 200px;
-    margin-bottom: 2.5%;
+  height: 200px;
+  margin-bottom: 2.5%;
 }
 
 #price_plan{
-    width: 30%;
-    height: 40%;
-    border: 1px solid lightgray;
-    margin: auto;
-    margin-top: 2.5%;
-    padding-top: 2%;
+  width: 30%;
+  height: 40%;
+  border: 1px solid lightgray;
+  margin: auto;
+  margin-top: 2.5%;
+  padding-top: 2%;
 }
 
 #select_button{width: 60%;}

@@ -75,11 +75,9 @@
   color: purple;
   border: 1px;
   width: 200px;
-  /* padding: 10px 20px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* border-radius: 20%; */
   border-style: solid;
   border-color: purple;
 }

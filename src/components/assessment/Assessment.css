@@ -35,8 +35,6 @@
     justify-content: space-between;
 }
 
-/* #fname{size: 80;} */
-  
 /* dropdown */
 .dropdown {
     position: relative;
@@ -57,4 +55,3 @@
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-
