@@ -1,0 +1,36 @@
+#meet{height: 300px;}
+
+#flex_container{
+  display: flex;
+  justify-content: center;
+}
+
+#team_members{
+  border: black;
+  width: 100vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team_card{
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  width: 700px;
+  margin: 30px;
+}
+
+.card_img{
+  border-radius: 50%;
+  height: 250px;
+  margin: 30px;
+}
+
+.card_body{margin: 30px;}
+
+.bio{
+  width: 100%;
+}
+
+.text{color: black;}

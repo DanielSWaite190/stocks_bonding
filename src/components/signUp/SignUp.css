@@ -1,0 +1,39 @@
+#signUpPage{background-color: white;}
+
+#x{
+  position: fixed;
+  right: 100px;
+  top: 100px;
+}
+
+.link-text{
+  display: flex;
+  justify-content: center;
+}
+
+.option{
+  width: 70%;
+  border: solid grey 1px;
+  margin: auto;
+  padding: 1%;
+  display: flex;
+}
+
+#logo{
+  display: flex;
+  margin-top: 5px;
+  width: 27%;
+}
+
+#content{
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  background-color: white
+}
+
+#textButton{
+  background:none; 
+  border:none;  
+  height: 0%; 
+}

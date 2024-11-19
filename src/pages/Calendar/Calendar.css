@@ -1,0 +1,85 @@
+#calendar{height: 228px;}
+
+#body{padding: 2%;}
+
+:root{--block_width: 75%;}
+
+.dates{
+  width: 60%;
+  width: var(--block_width);
+  margin: auto;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.online{
+  display: flex;
+  border: 1px;
+  width: 130px;
+  height: 30px;
+  border-radius: 25px;
+  border-style: solid;
+  text-decoration: none;
+  font-size: smaller;
+
+  padding: 5px;
+}
+
+#top{border-top: 1px solid gray}
+
+#bottom{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-bottom: 200px;
+}
+
+.enroll{
+  color: white;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(128, 87, 166);
+}
+
+.enroll:hover{
+  background-color: rgba(128, 87, 166, 0.584);
+}
+
+#calendar_block{
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  width: var(--block_width);
+}
+
+#days{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80px;
+}
+
+.number{
+  height: 50px;
+  padding: 10%;
+}
+
+.number:hover{
+ background-color: rgb(139, 116, 168);
+ border: 2px solid purple;
+}
+
+#current{
+  display: flex;
+  text-align: left;
+  padding: 10px;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid lightgray;
+}

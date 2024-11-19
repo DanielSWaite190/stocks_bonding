@@ -1,0 +1,64 @@
+#chat_body{
+  margin: auto;
+  width: 60%;
+}
+
+#rooms{
+  border: 1px solid lightgray;
+  padding: 2%
+}
+
+#sort{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#group_card{
+  display: flex;
+  border-top: solid 1px lightgray;
+  padding-top: 20px ;
+}
+
+#substext{
+  display: flex;
+  height: 20px;
+  width: 200px;
+}
+
+#button_enclosing{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+#chat_drop{
+  /* display: flex; */
+  flex-direction: column;
+  width: 200px;
+}
+
+.chat_item{
+  padding: 15px;
+  width: 100%;
+}
+
+.chat_item:hover{
+  background-color: rgba(214, 214, 214, 0.992);
+}
+
+
+/* .ddwon_content{
+  display: none;
+  visibility:hidden;
+  position: absolute;
+  border: 1px solid black;
+  background-color: pink;
+}
+
+
+.ddown_button:hover{
+  display: block;
+  visibility: collapse;
+} */
